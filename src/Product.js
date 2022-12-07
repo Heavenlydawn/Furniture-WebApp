@@ -1,19 +1,30 @@
 import React from "react";
 import "./Product.css";
 import ProductData from "./ProductData";
+import { useState } from "react";
 
 const Product = () => {
-  const PdtData = ProductData.map((data, index) => (
-    
-    <div className="bg-[#F4F5F7] Card" key={index}>
+  // Handeling Mouse Hover
+  const [isHovering, setIsHovering] = useState(false);
 
-    
-<div className="group hover:flex hover:justify-center hover:items-center relative">
+  const handleMouseHover = () => {
+    setIsHovering(true);
+  };
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
+
+  const PdtData = ProductData.map((data, index) => (
+    <div
+      className="bg-[#F4F5F7] Card"
+      key={index}
+      onMouseOver={handleMouseHover}
+    >
+      {/* <div className="group hover:flex hover:justify-center hover:items-center relative">
         <button className="hidden group-hover:block absolute text-[blue]">
           Add to Cart
         </button>
-      </div>
-
+      </div> */}
 
       <img alt="Avatar" src={data.image} />
       <div className="pl-5">
@@ -36,6 +47,11 @@ const Product = () => {
     <div>
       <h2 className="font-bold text-4xl text-center my-10">Our Products</h2>
       <div className="grid grid-cols-4 gap-4 w-max">{PdtData}</div>
+      {isHovering && (
+        <button className="hidden group-hover:block absolute text-[blue]">
+          Add to Cart
+        </button>
+      )}
       <button className="text-center text-[#E89F71]">Show More</button>
     </div>
   );

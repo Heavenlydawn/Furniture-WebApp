@@ -13,6 +13,17 @@ import Muggo from "./images/muggo.png";
 import Pingky from "./images/pingky.png";
 import Potty from "./images/potty.png";
 
+
+import RomCom from "./images/rom-com.jpg"
+import Chand from "./images/Chand.jpg"
+import Comfort from "./images/comfort.jpg"
+import Couch from "./images/Couch.jpg"
+import Cush from "./images/cush.jpg"
+import Dinning from "./images/Dinning.jpg"
+import SideCush from "./images/side cush.jpg"
+import SideDinning from "./images/side dining.jpg"
+import WallSet from "./images/wall set.jpg"
+
 const ProductData = [
     {
         id:1,
@@ -77,7 +88,80 @@ const ProductData = [
         des:"Minimalist flower pot",
         currentPrice:"Rp 500.000",
         previousPrice:""
-    }
+    },
+    {
+        id:9,
+        image:RomCom,
+        name:"RomCom",
+        des:"Romantic Chair",
+        currentPrice:"Rp 500.000",
+        previousPrice:""
+    },
+    {
+        id:10,
+        image:Chand,
+        name:"Chandelier",
+        des:"Light",
+        currentPrice:"Rp 500.000",
+        previousPrice:"Rp 14.000.000"
+    },
+    {
+        id:11,
+        image:Comfort,
+        name:"Reading Chair",
+        des:"Minimalist reading Chair",
+        currentPrice:"Rp 500.000",
+        previousPrice:"Rp 24.000.000"
+    },
+    {
+        id:12,
+        image:Couch,
+        name:"Couch",
+        des:"Sitting room chair",
+        currentPrice:"Rp 900.000",
+        previousPrice:"Rp 18.000.000"
+    },
+    {
+        id:13,
+        image:Cush,
+        name:"Cush",
+        des:"Cushion",
+        currentPrice:"Rp 1.000.000",
+        previousPrice:"Rp 2.000.000"
+    },
+    {
+        id:15,
+        image:Dinning,
+        name:"Dinning",
+        des:"Dinning Set",
+        currentPrice:"Rp 10.000.000",
+        previousPrice:"Rp 20.000.000"
+    },
+    {
+        id:16,
+        image:SideCush,
+        name:"Side-Cushion",
+        des:"Relaxing Side Chair",
+        currentPrice:"Rp 500.000",
+        previousPrice:""
+    },
+
+    {
+        id:17,
+        image:SideDinning,
+        name:"Side-Dinning",
+        des:"Side Dinning Set",
+        currentPrice:"Rp 900.000",
+        previousPrice:""
+    },
+    {
+        id:18,
+        image:WallSet,
+        name:"Beautiful Wall Set",
+        des:"Light",
+        currentPrice:"Rp 900.000",
+        previousPrice:"Rp 18.000.000"
+    },
 ]
 
 export default ProductData
