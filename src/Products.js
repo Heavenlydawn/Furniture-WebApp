@@ -13,8 +13,10 @@ const Product = () => {
   // !Product Mapping
 
   const PdtData = ProductData.map((data, index) => (
-    <div>
+    <div className="relative group">
+
       <div className="bg-[#F4F5F7] Card" key={index}>
+
         <img alt="Avatar" src={data.image} />
         <div className="pl-5">
           <h2 className="text-2xl font-bold py-5">{data.name}</h2>
@@ -29,9 +31,11 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className="cartLay">
-        <button className="Add">Add to Cart</button>
+
+       <div className="absolute top-0 w-full left-0 h-0 flex justify-center items-center  bg-black opacity-0 group-hover:h-full group-hover:opacity-60 duration-500 transition ease-in-out ">
+        <button className="bg-white text-[#e89f71] py-5 group-hover:opacity-100 rounded px-20">Add to Cart</button>
       </div>
+
     </div>
   ));
 

@@ -12,32 +12,33 @@ body {
 .ProductContainer {
   max-width: 85%;
   margin: 0 auto;
-  position: relative;
-
+  /* position: relative; */
 }
+
 /* Card Section */
 .Card {
   height: 450px;
-  opacity: 1;
-  /* backface-visibility: hidden; */
 }
 
-.Card:hover {
+/* Hover Section */
+
+/* .PdtContainer:hover {
   opacity: 0.5;
-}
-.cartLay {
-  position: absolute;
-  text-align: center;
-  opacity: 0;
-  top: 50%;
-  left: 50%;
-}
+  background-color: #444;
+} */
 
+/* .Card:hover,
 .cartLay:hover {
-  opacity: 1;
-}
+  opacity: 0.5;
+  background-color: #444
+} */
 
-.Add {
-  border: 2px solid #e89f71;
-  color: lime;
-}
+/* .cartLay {
+  text-align: center;
+  opacity: 1;
+  bottom: 10px;
+} */
+
+/* .cartLay:hover {
+  opacity: 1;
+} */
