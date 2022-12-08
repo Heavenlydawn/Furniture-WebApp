@@ -4,13 +4,9 @@ import ProductData from "./ProductData";
 import Funiro from "./Funiro";
 import { useNavigate } from "react-router-dom";
 
-
+// Show More Button Navigation
 const Product = () => {
-
-      const navigate = useNavigate()
-
-
-
+  const navigate = useNavigate();
 
   // !Product Mapping
 
@@ -42,21 +38,24 @@ const Product = () => {
 
   return (
     // PRODUCT SECTION
-   <div>
-     <div className="ProductContainer">
-      <h2 className="font-bold text-4xl text-center my-10">Our Products</h2>
-      <div className="grid grid-cols-4 gap-4 w-max">{PdtData}</div>
+    <div>
+      <div className="ProductContainer">
+        <h2 className="font-bold text-4xl text-center my-10">Our Products</h2>
+        <div className="grid grid-cols-4 gap-4 w-max">{PdtData}</div>
 
-      {/* Show More Button */}
-      <div className="flex justify-center my-10">
-        <button onClick={() => navigate('AllProducts')} className="px-16 py-4 border-2 border-[#E89F71] text-[#E89F71] font-bold">
-          Show More
-        </button>
+        {/* Show More Button */}
+        <div className="flex justify-center my-10">
+          <button
+            onClick={() => navigate("AllProducts")}
+            className="px-16 py-4 border-2 border-[#E89F71] text-[#E89F71] font-bold"
+          >
+            Show More
+          </button>
+        </div>
+
+        <Funiro />
       </div>
-
-      <Funiro />
     </div>
-   </div>
   );
 };
 

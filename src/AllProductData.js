@@ -24,6 +24,23 @@ import SideCush from "./images/side cush.jpg"
 import SideDinning from "./images/side dining.jpg"
 import WallSet from "./images/wall set.jpg"
 
+
+import BlackChair from "./images/BlackChair.jpg"
+import Comfill from "./images/comfii.jpg"
+import Cushion from "./images/cush.jpg"
+import DinningSet from "./images/DinningSet...jpg"
+import Drawer from "./images/Drawer.jpg"
+import KitchenFur from "./images/KitchenFur.jpg"
+import LRoomSet from "./images/L.RoomSet.jpg"
+import LRoomSet1 from "./images/L.RoomSet1.jpg"
+import LRoomSet2 from "./images/L.RoomSet2.jpg"
+import OrangeCush from "./images/OrangeCush.jpg"
+import RoomMirror from "./images/RoomMirror.jpg"
+import TealDrawer from "./images/TealDrawer.jpg"
+import YellowCush from "./images/Yellow Cush.jpg"
+import BrownCush from "./images/BrownCush.jpg"
+import WallSet1 from "./images/WallSet...jpg"
+
 const AllProductData = [
     {
         id:1,
@@ -161,7 +178,128 @@ const AllProductData = [
         des:"Light",
         currentPrice:"Rp 900.000",
         previousPrice:"Rp 18.000.000"
-    }
+    },
+    {
+        id:19,
+        image:BlackChair,
+        name:"Relaxing Chair",
+        des:"Chair",
+        currentPrice:"Rp 500.000",
+        previousPrice:"Rp 18.000.000"
+    },
+    {
+        id:20,
+        image:Comfill,
+        name:"Comfortable Chair",
+        des:"Chair",
+        currentPrice:"Rp 12.000.000",
+        previousPrice:"Rp 18.000.000"
+    },
+    {
+        id:21,
+        image:Cushion,
+        name:"Comfortable Cushion",
+        des:"Living Room Chair",
+        currentPrice:"Rp 17.000.000",
+        previousPrice:"Rp 18.000.000"
+    },
+    {
+        id:22,
+        image:DinningSet,
+        name:"Beautiful Dinning Set",
+        des:"Dinning Set",
+        currentPrice:"Rp 18.000.000",
+        previousPrice:"Rp 36.000.000"
+    },
+    {
+        id:23,
+        image:Drawer,
+        name:"Stylish Drawer",
+        des:"Drawer",
+        currentPrice:"Rp 900.000",
+        previousPrice:"Rp 18.000.000"
+    },
+    {
+        id:24,
+        image:KitchenFur,
+        name:"Beautiful Kitchen Furniture",
+        des:"Kitchen Furniture",
+        currentPrice:"Rp 12.000.000",
+        previousPrice:"Rp 18.000.000"
+    },
+    {
+        id:25,
+        image:LRoomSet,
+        name:"Beautiful LivingRoom Set",
+        des:"Living room furniture",
+        currentPrice:"Rp 18.000.000",
+        previousPrice:"Rp 38.000.000"
+    },
+    {
+        id:26,
+        image:LRoomSet1,
+        name:"Beautiful LivingRoom Set",
+        des:"Living room furniture",
+        currentPrice:"Rp 18.000.000",
+        previousPrice:"Rp 38.000.000"
+    },
+    {
+        id:27,
+        image:LRoomSet2,
+        name:"Beautiful LivingRoom Set",
+        des:"Living room furniture",
+        currentPrice:"Rp 18.000.000",
+        previousPrice:"Rp 38.000.000"
+    },
+    {
+        id:28,
+        image:OrangeCush,
+        name:"Beautiful Orange Cushion",
+        des:"Comfortable Reading Chair",
+        currentPrice:"Rp 8.000.000",
+        previousPrice:"Rp 16.000.000"
+    },
+    {
+        id:29,
+        image:RoomMirror,
+        name:"Beautiful Wall room mirror",
+        des:"Wall Mirror",
+        currentPrice:"Rp 500.000",
+        previousPrice:"Rp 10.000.000"
+    },
+    {
+        id:30,
+        image:YellowCush,
+        name:"Beautiful Yellow Cushion",
+        des:"Comfortable Reading Chair",
+        currentPrice:"Rp 8.000.000",
+        previousPrice:"Rp 16.000.000"
+    },
+    {
+        id:31,
+        image:TealDrawer,
+        name:"Beautiful Teal Drawer",
+        des:"Drawer",
+        currentPrice:"Rp 7.000.000",
+        previousPrice:"Rp 14.000.000"
+    },
+    {
+        id:28,
+        image:BrownCush,
+        name:"Beautiful Brown Cushion",
+        des:"Comfortable Reading Chair",
+        currentPrice:"Rp 8.000.000",
+        previousPrice:"Rp 16.000.000"
+    },
+    {
+        id:28,
+        image:WallSet1,
+        name:"Beautiful Wall Set",
+        des:"Wall Furniture",
+        currentPrice:"Rp 18.000.000",
+        previousPrice:"Rp 36.000.000"
+    },
+
 ]
 
 export default AllProductData
