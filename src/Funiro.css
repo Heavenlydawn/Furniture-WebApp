@@ -5,11 +5,11 @@
   font-family: "Merriweather";
 }
 
-.Container {
+.FuniroContainer {
   position: relative;
   height: 100vh;
   width: 100vw;
-  max-width: 85%;
+  max-width: 100%;
   margin: 0 auto;
 }
 

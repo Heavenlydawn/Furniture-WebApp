@@ -2,7 +2,6 @@ import React from "react";
 import "./Products.css";
 import ProductData from "./ProductData";
 import Funiro from "./Funiro";
-import "./Funiro.css";
 // import { useState } from "react";
 
 // Animation
@@ -38,7 +37,7 @@ const Product = () => {
 
   return (
     // PRODUCT SECTION
-    <div className="Container">
+    <div className="ProductContainer">
       <h2 className="font-bold text-4xl text-center my-10">Our Products</h2>
       <div className="grid grid-cols-4 gap-4 w-max">{PdtData}</div>
 

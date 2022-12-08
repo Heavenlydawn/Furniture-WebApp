@@ -10,8 +10,8 @@ import Share7 from "./images/share7.png";
 
 const Funiro = () => {
   return (
-    <div className="Container">
-      <div >
+    <div>
+      <div className="FuniroContainer">
         <div className="FuniroContent">
           <p className="p text-2xl leading-8 font-black text-center text-[#616161]">
             Share your setup with

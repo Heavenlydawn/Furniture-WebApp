@@ -6,24 +6,24 @@
 body {
   font-family: "Merriweather", serif;
   height: 100vh;
-  max-width: 85%;
   margin: 0 auto;
 }
 
-.Container {
-  max-width: 90%;
+.ProductContainer {
+  max-width: 85%;
   margin: 0 auto;
   position: relative;
+
 }
 /* Card Section */
 .Card {
   height: 450px;
   opacity: 1;
-  backface-visibility: hidden;
+  /* backface-visibility: hidden; */
 }
 
 .Card:hover {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 .cartLay {
   position: absolute;
