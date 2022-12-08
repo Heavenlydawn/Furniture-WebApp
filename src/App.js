@@ -1,12 +1,12 @@
-import Funiro from './Funiro';
-import Product from "./Product"
+import './App.css';
+import Products from './Products';
+// import AllProducts from './AllProducts';
 
 function App() {
   return (
-    <div className="App">
-
-      <Product />
-      <Funiro />
+    <div>
+      <Products />
+      {/* <AllProducts /> */}
     </div>
   );
 }

@@ -13,8 +13,12 @@ const Funiro = () => {
     <div>
       <div className="Container">
         <div className="FuniroContent">
-          <p className="p text-2xl leading-8 font-black text-center text-[#616161]">Share your setup with</p>
-          <h1 className="text-4xl font-bold font-black text-center">#FuniroFurniture</h1>
+          <p className="p text-2xl leading-8 font-black text-center text-[#616161]">
+            Share your setup with
+          </p>
+          <h1 className="text-4xl font-bold font-black text-center">
+            #FuniroFurniture
+          </h1>
         </div>
         <div className="ImgContainer">
           <div className="ImageContainer-1">
