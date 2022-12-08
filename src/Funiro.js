@@ -11,7 +11,13 @@ import Share7 from "./images/share7.png";
 const Funiro = () => {
   return (
     <div>
-      <div className="FuniroContainer">
+      <div
+     className="FuniroContainer" 
+     data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500"
+>
         <div className="FuniroContent">
           <p className="p text-2xl leading-8 font-black text-center text-[#616161]">
             Share your setup with
@@ -40,3 +46,5 @@ const Funiro = () => {
 };
 
 export default Funiro;
+
+

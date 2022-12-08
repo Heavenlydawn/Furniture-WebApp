@@ -2,12 +2,6 @@ import React from "react";
 import "./Products.css";
 import ProductData from "./ProductData";
 import Funiro from "./Funiro";
-// import { useState } from "react";
-
-// Animation
-
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
 const Product = () => {
   // !Product Mapping
@@ -33,7 +27,7 @@ const Product = () => {
       </div>
 
        <div className="absolute top-0 w-full left-0 h-0 flex justify-center items-center  bg-black opacity-0 group-hover:h-full group-hover:opacity-60 duration-500 transition ease-in-out ">
-        <button className="bg-white text-[#e89f71] py-5 group-hover:opacity-100 rounded px-20">Add to Cart</button>
+        <button className="bg-white text-[#e89f71] font-bold py-5 group-hover:opacity-100 rounded px-20">Add to Cart</button>
       </div>
 
     </div>
