@@ -3,38 +3,19 @@ import "./Products.css";
 import ProductData from "./ProductData";
 import Funiro from "./Funiro";
 import "./Funiro.css";
-import { useState } from "react";
+// import { useState } from "react";
 
 // Animation
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 const Product = () => {
-  
-  // !Handling Mouse Hover
-
-  // const [isHovering, setIsHovering] = useState(false);
-
-  // const handleMouseHover = () => {
-  //   setIsHovering(true);
-  // };
-  // const handleMouseOut = () => {
-  //   setIsHovering(false);
-  // };
-
-
-
   // !Product Mapping
-
 
   const PdtData = ProductData.map((data, index) => (
     <div>
-      <div
-        className="bg-[#F4F5F7] Card"
-        key={index}
-        // onMouseOver={handleMouseHover}
-      >
+      <div className="bg-[#F4F5F7] Card" key={index}>
         <img alt="Avatar" src={data.image} />
         <div className="pl-5">
           <h2 className="text-2xl font-bold py-5">{data.name}</h2>
@@ -49,29 +30,24 @@ const Product = () => {
           </div>
         </div>
       </div>
+      <div className="cartLay">
+        <button className="Add">Add to Cart</button>
+      </div>
     </div>
   ));
 
   return (
     // PRODUCT SECTION
-    <div>
+    <div className="Container">
       <h2 className="font-bold text-4xl text-center my-10">Our Products</h2>
       <div className="grid grid-cols-4 gap-4 w-max">{PdtData}</div>
 
-      {/* {isHovering && (
-        <button className="hidden group-hover:block absolute text-[blue]">
-          Add to Cart
+      {/* Show More Button */}
+      <div className="flex justify-center my-10">
+        <button className="px-16 py-4 border-2 border-[#E89F71] text-[#E89F71] font-bold">
+          Show More
         </button>
-      )} */}
-
-
-        {/* Show More Button */}
-
-     <div className="flex justify-center my-10"> 
-     <button className="px-16 py-4 border-2 border-[#E89F71] text-[#E89F71] font-bold">
-      Show More
-     </button>
-     </div>
+      </div>
 
       <Funiro />
     </div>

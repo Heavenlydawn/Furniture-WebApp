@@ -7,10 +7,37 @@ body {
   font-family: "Merriweather", serif;
   height: 100vh;
   max-width: 85%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
+.Container {
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
 /* Card Section */
-.Card{
-  height:450px;
+.Card {
+  height: 450px;
+  opacity: 1;
+  backface-visibility: hidden;
+}
+
+.Card:hover {
+  opacity: 0.3;
+}
+.cartLay {
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+}
+
+.cartLay:hover {
+  opacity: 1;
+}
+
+.Add {
+  border: 2px solid #e89f71;
+  color: lime;
 }
