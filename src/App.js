@@ -10,11 +10,12 @@ function App() {
     
       <Routes>
         <Route path="/" element={<Products />} />
+         <Route path="AllProducts" element={<AllProducts />} />
       </Routes>
 
-      <Routes>
+      {/* <Routes>
         <Route path="AllProducts" element={<AllProducts />} />
-      </Routes>
+      </Routes> */}
 
      
     </>
